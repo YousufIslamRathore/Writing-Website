@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.wholeHeader {
+  position: sticky;
+  top: 0;
+  box-shadow: -21.213px 21.213px 30px 0 rgb(158 158 158 / 30%);
+  z-index: 10;
+}
+#topHeader {
+  width: 100%;
+  background-color: #f1bf16;
+  color: #777777;
+  font-size: 14px;
+}
+#topHeader > section {
+  max-width: 1140px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+}
+#topHeader > section > section {
+  width: 570px;
+  padding: 0px 15px;
+}
+#topHeader > section > section > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#topHeader > section > section > div > div {
+  /* width: 40%; */
+  padding: 5px 0;
+  color: #2d2d2d;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+#topHeader > section > section > div > div > section {
+  margin-right: 20px;
+  padding-bottom: 0 !important;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+#topHeader > section > section > div > div > i {
+  margin-right: 8px;
+}
+
+.mainHeader {
+  padding: 8px 16px;
+  background-color: #222222;
+}
+.mainHeader > section {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+.mainHeader > section > div {
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  margin-right: 16px;
+}
+.mainHeader > section > section {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.mainHeader > section > section > div {
+  padding: 20px;
+  font-weight: 600;
+  color: #f1bf16;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainHeader > section > section > div p {
+  width: 100%;
+}
+.mainHeader > section > section > div div {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainHeader > section > section > div i {
+  font-size: 12px;
+  height: 18px;
+}
+.btnDivHeader {
+  padding: 0 !important;
+  width: 155px;
+}
+.btnDivHeader > button {
+  width: 100%;
+  border-radius: 40px;
+  padding: 6px 20px;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+/* Banner Section */
+
+.bannerMainContainer {
+  width: 100%;
+  /* background-image: ; */
+  background: linear-gradient(rgb(0 0 0 / 40%), rgb(0 0 0 / 40%)),
+    url("../images/home_banner.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 590px;
+}
+.bannerContentSection {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.bannerContentSection > section {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerContentSection > section > div {
+  padding: 20px 15px;
+  flex-grow: 1;
+  background: transparent;
+}
+.bannerContentSection > section > div > h4 {
+  font-size: 30px;
+  color: #fff;
+  width: 100%;
+  font-weight: 600;
+}
+.bannerContentSection > section > div > h3 {
+  font-size: 44px;
+  color: #fff;
+  width: 100%;
+  font-weight: 700;
+  line-height: 48px !important;
+}
+.bannerContentSection > section > div > p {
+  font-size: 23px;
+  color: #fff;
+  width: 100%;
+  margin: 20px 0;
+}
+.bannerContentSection > section > div > ul {
+  list-style-type: none;
+  color: white;
+}
+.bannerContentSection > section > div > ul > li {
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.bannerContentSection > section > div > ul > li > div {
+  border-radius: 50%;
+  color: #2d2d2d;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.bannerContentSection > section > section {
+  min-width: 380px;
+  background-color: #ffc500;
+  padding: 24px;
+}
+.bannerContentSection > section > section > h4 {
+  color: #222;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+.bannerContentSection > section > section > form {
+  display: flex;
+  flex-direction: column;
+}
+.bannerContentSection > section > section input,
+.bannerContentSection > section > section textarea {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  height: 40px;
+  background-color: #f9f9ff;
+  line-height: 40px;
+  font-size: 14px;
+}
+.bannerContentSection > section > section textarea {
+  height: 100px;
+}
+.bannerContentSection input::placeholder,
+.bannerContentSection textarea::placeholder {
+  color: #777777;
+  font-weight: 300;
+}
+.bannerContentSection > section > section > form div {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bannerContentSection > section > section button {
+  background-color: #222222;
+  border-radius: 25px;
+  padding: 0 30px;
+  line-height: 40px;
+  margin: 0 auto;
+  color: white;
+  border: none;
+  font-weight: 500;
+}
+
+/* After Banner Section */
+.afterBannerMainContainer {
+  padding: 50px 0;
+}
+.afterBannerContentSection {
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.afterBannerContentSection > section {
+  padding: 0 15px;
+}
+.afterBannerLeftSection {
+  width: 33%;
+}
+.afterBannerRightSection {
+  width: 67%;
+}
+.afterBannerRightSection > h1 {
+  font-size: 32px;
+  color: #222;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.afterBannerRightSection > .firstHeading {
+  margin: 55px 0 25px;
+}
+.afterBannerRightSection > p {
+  font-size: 14px;
+  color: #222222;
+  margin-bottom: 1rem;
+  text-align: justify;
+  line-height: 1.625em;
+}
+.afterBannerRightSection > .secondHeading {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.servicesMainWholeContainer {
+  width: 100%;
+}
+.servicesMainWholeContainer > section {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.servicesTopSection {
+  max-width: 760px;
+  padding: 0 15px 70px;
+}
+.servicesHeadingLine {
+  color: #222;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 1.2em !important;
+  text-align: center;
+}
+.servicesHeadingPara {
+  margin-bottom: 1rem;
+  font-size: 14px;
+  font-weight: 400;
+  color: #777777;
+  text-align: justify;
+  line-height: 1.625em;
+}
+.servicesMainSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.servicesMainSection > div {
+  width: 33.3333%;
+  padding: 0 15px;
+  font-size: 14px;
+}
+.servicesMainSection > div > h1 {
+  color: #ffc500;
+  width: 100%;
+  margin: 40px 0 20px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2em;
+  cursor: pointer;
+}
+.servicesMainSection > div > i {
+  font-size: 32px;
+  color: #777;
+}
+.servicesMainSection > div > p {
+  text-align: left;
+  margin-bottom: 35px;
+  font-weight: 400;
+  line-height: 1.625em;
+}
+
+.servicesBtnSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.servicesBtnSection > div {
+  width: 50%;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+.servicesBtnSection > div > button {
+  padding: 20px 70px;
+  font-size: 14px;
+  background-color: #ff6c00;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 20px;
+  outline: none;
+  line-height: 1.625em;
+  outline: 0;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+.servicesBtnSection > div > button:hover {
+  background-color: #ff6c00ab;
+  color: #222;
+}
+
+.aboutAreaBannerContainer {
+  width: 100%;
+  padding: 0 15px;
+  background: linear-gradient(rgb(0 0 0/70%), rgb(0 0 0/70%)),
+    url("../images/bg-overlay1.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutAreaBannerContainer > section {
+  width: 66.6666%;
+  padding: 0 15px;
+  margin: 30px 0;
+  color: white;
+}
+.aboutAreaBannerContainer > section > h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.aboutAreaBannerContainer > section > p {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.625em;
+}
+
+.projectAreaMainWholeContainer {
+  padding: 70px 0;
+}
+.projectAreaMainSection h2 {
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.projectAreaMainSection > div {
+    padding: 0 !important;
+}
+.projectAreaMainSection > div > div {
+    text-align: center;
+}
+.projectAreaMainSection > div > section {
+    padding: 30px 40px;
+    margin-top: 20px;
+}
+.projectAreaMainSection > div > section p {
+    text-align: center;
+}
+.projectAreaBtnSection {
+    padding: 20px 0 30px;
+}
