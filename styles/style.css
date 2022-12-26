@@ -4,7 +4,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd !important;
+}
 .wholeHeader {
   position: sticky;
   top: 0;
@@ -426,3 +430,41 @@
 .projectAreaBtnSection {
     padding: 20px 0 30px;
 }
+
+
+
+/* Order Page */
+.orderBannerMainContainer {
+  background: linear-gradient(rgb(0 0 0/60%), rgb(0 0 0/60%)), url('../images/banner_notebook.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 10px rgb(255 255 255 / 30%) inset, 0px -3px 10px rgb(255 255 255 / 30%) inset;
+}
+.orderBannerMainContainer h1 {
+  color: white;
+  font-size: 50px;
+  font-family: cursive;
+  letter-spacing: 0.7rem;
+  font-weight: 600;
+}
+.afterOrderBannerMainContainer {
+  width: 100%;
+}
+.afterOrderBannerMainContainer > section {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 40px 15px;
+}
+.afterOrderBannerMainContainer > section > h2 {
+  font-weight: normal;
+}
+.afterOrderBannerMainContainer > section > div {
+  
+}
+
