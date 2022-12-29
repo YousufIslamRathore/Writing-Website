@@ -458,6 +458,7 @@ hr {
 }
 .afterOrderBannerMainContainer {
   width: 100%;
+  background-color: #f9f9ff;
 }
 .afterOrderBannerMainContainer > section {
   width: 1140px;
@@ -491,8 +492,8 @@ hr {
   width: 100%;
   padding: 0px 20px;
   line-height: 40px;
-  background-color: #f9f9ff;
-  border: none;
+  background-color: white;
+  border: 3px solid #c2c2c286;
   outline: 0;
   color: #222;
   font-size: 16px;
@@ -501,11 +502,6 @@ hr {
 .flexInputFieldsOrder label input::placeholder {
   color: #777;
   font-weight: 100;
-
-}
-.flexInputFieldsOrder label select {
-  height: 40px;
-  color: #222222 !important;
 }
 .flexInputFieldsOrder label em {
   color: red;

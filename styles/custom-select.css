@@ -10,7 +10,7 @@
 .select-selected {
   background-color: white;
   border: 3px solid #c2c2c286 !important;
-  padding: 10px 25px !important;
+  padding: 7.5px 25px !important;
 }
 
 /* Style the arrow inside the select element: */
@@ -50,8 +50,8 @@
   right: 0;
   z-index: 99;
   border: 1px solid #ddd;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
 }
 
 /* Hide the items when the select box is closed: */
@@ -61,8 +61,8 @@
 
 .select-items div:hover,
 .same-as-selected {
-  /* background-color: rgba(0, 0, 0, 0.1); */
-  background-color: rgba(4, 83, 55, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(4, 83, 55, 0.2); */
   color: black;
 }
 .same-as-selected {
