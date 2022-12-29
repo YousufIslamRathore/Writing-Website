@@ -9,6 +9,7 @@
 
     <!-- Cascading Style Sheet -->
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/custom-select.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,12 +75,61 @@
         <section>
             <h2>Personal Details:</h2>
             <hr />
-            <div>
-                
-            </div>
+            <section class="flexInputFieldsOrder">
+                <label for="">
+                    <p>Your Name<em>*</em></p>
+                    <input type="text" placeholder="Your Full Name">
+                </label>
+                <label for="">
+                    <p>Phone No<em>*</em></p>
+                    <input type="text" placeholder="Your Phone Number">
+                </label>
+                <label for="">
+                    <p>Your Email<em>*</em></p>
+                    <input type="text" placeholder="someone@example.com">
+                </label>
+                <label for="">
+                    <p>Country<em>*</em></p>
+                    <div class="custom-select">
+                    <select name="" id="" class="" required>
+                        <option value="#" selected disabled>Select Country: </option>
+                        <option value="uk">UK</option>
+                        <option value="us">US</option>
+                        <option value="china">China</option>
+                        <option value="france">france</option>
+                    </select>
+                </div>
+                </label>
+            </section>
+
+            <h2 style="margin-top: 20px;">Personal Details:</h2>
+            <hr />
+            <section class="flexInputFieldsOrder">
+                <label for="">
+                    <p>Your Name<em>*</em></p>
+                    <input type="text" placeholder="Your Full Name">
+                </label>
+                <label for="">
+                    <p>Phone No<em>*</em></p>
+                    <input type="text" placeholder="Your Phone Number">
+                </label>
+                <label for="">
+                    <p>Your Email<em>*</em></p>
+                    <input type="text" placeholder="someone@example.com">
+                </label>
+                <label for="">
+                    <p>Country<em>*</em></p>
+                    <div class="custom-select">
+                        <select name="" id="">
+                            <option value="uk" selected>UK</option>
+                        </select>
+                    </div>
+                </label>
+            </section>
         </section>
     </section>
 </body>
 <script src="./scripts/app.js"></script>
+<script src="./scripts/selectDropDown.js"></script>
 
 </html>
