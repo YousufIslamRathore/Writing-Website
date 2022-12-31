@@ -531,6 +531,7 @@ hr {
   display: flex;
   align-items: center;
   padding-top: 20px;
+  flex-wrap: wrap;
 }
 .paymentSection > div {
   width: 50%;
