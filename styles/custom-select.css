@@ -52,6 +52,8 @@
   border: 1px solid #ddd;
   /* padding-left: 10px;
   padding-right: 10px; */
+  max-height: 250px !important;
+  overflow-y: scroll;
 }
 
 /* Hide the items when the select box is closed: */
@@ -68,4 +70,16 @@
 .same-as-selected {
   /* background-color: #045337; */
   color: black !important;
+}
+
+.select-items::-webkit-scrollbar {
+    width: 4px;
+}
+.select-items::-webkit-scrollbar-track {
+    margin: 10px 0 !important;
+    background: #f1f1f1;
+}
+.select-items::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
 }
