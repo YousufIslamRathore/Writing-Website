@@ -9,7 +9,12 @@
 
     <!-- Cascading Style Sheet -->
     <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- Select Element - Custom CSS -->
     <link rel="stylesheet" href="./styles/custom-select.css">
+
+    <!-- Order Now Button - Custom CSS -->
+    <link rel="stylesheet" href="./styles/orderNowBtn.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,7 +64,15 @@
                     <div>
                         <p>PRICE PLAN</p>
                     </div>
-                    <div class="btnDivHeader"><button>ORDER NOW</button></div>
+                    <div class="btnDivHeader">
+                        <a href="javascript:void(0)" class="animated-button1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Order Now
+                        </a>
+                    </div>
                 </section>
             </section>
         </main>
@@ -737,9 +750,16 @@
                 </label>
             </section>
             <hr style="margin-top: 20px;" />
-            <h2 style="text-align: center; text-decoration: underline">Payment</h2>
+            <h2 style="text-align: center; background-color: black; color: white; padding: 8px 0;">Payment</h2>
             <section class="paymentSection">
-                
+                <div>
+                    <h1>Amount : </h1>
+                    <h2>£00.00</h2>
+                </div>
+                <div>
+                    <p><input type="radio" name="" id=""> Pay with PayPal</p>
+                    <p><input type="radio" name="" id=""> Pay with Bank Transfer</p>
+                </div>
             </section>
         </section>
     </section>

@@ -530,4 +530,18 @@ hr {
 .paymentSection {
   display: flex;
   align-items: center;
+  padding-top: 20px;
+}
+.paymentSection > div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  align-self: stretch;
+}
+.paymentSection > div h1 {
+  color: #777;
 }
