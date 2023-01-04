@@ -546,3 +546,10 @@ hr {
 .paymentSection > div h1 {
   color: #777;
 }
+.submitBtnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
