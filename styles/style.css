@@ -411,34 +411,82 @@ hr {
   padding: 70px 0;
 }
 .projectAreaMainSection h2 {
-    color: #222;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 25px;
+  color: #222;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 25px;
 }
 .projectAreaMainSection > div {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 .projectAreaMainSection > div > div {
-    text-align: center;
+  text-align: center;
 }
 .projectAreaMainSection > div > section {
-    padding: 30px 40px;
-    margin-top: 20px;
+  padding: 30px 40px;
+  margin-top: 20px;
 }
 .projectAreaMainSection > div > section p {
-    text-align: center;
+  text-align: center;
 }
 .projectAreaBtnSection {
-    padding: 20px 0 30px;
+  padding: 20px 0 30px;
 }
-
-
+.blackContainer {
+  padding: 80px 0;
+  width: 100%;
+  background-color: #222222;
+}
+.blackContainer > div {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  color: #ffffff;
+}
+.blackContainer h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.blackContainer p {
+  font-size: 14px;
+  line-height: 1.625rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+.blackContainer > div > section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.blackContainer > div > section > div {
+  flex-grow: 1;
+  padding: 0 15px;
+}
+.blackContainer > div > section > div > div {
+  margin: 30px 0;
+  padding: 20px;
+  border: 1px dashed yellow;
+  border-radius: 10px;
+  min-height: 300px;
+}
+.blackContainer > div > section > div > div h6 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+}
+.blackContainer > div > section > div > div h4 {
+  
+}
 
 /* Order Page */
 .orderBannerMainContainer {
-  background: linear-gradient(rgb(0 0 0/60%), rgb(0 0 0/60%)), url('../images/banner_notebook.jpg');
+  background: linear-gradient(rgb(0 0 0/60%), rgb(0 0 0/60%)),
+    url("../images/banner_notebook.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -447,7 +495,8 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 3px 10px rgb(255 255 255 / 30%) inset, 0px -3px 10px rgb(255 255 255 / 30%) inset;
+  box-shadow: 0 3px 10px rgb(255 255 255 / 30%) inset,
+    0px -3px 10px rgb(255 255 255 / 30%) inset;
 }
 .orderBannerMainContainer h1 {
   color: white;
@@ -473,7 +522,7 @@ hr {
   margin-bottom: 8px;
 }
 .flexInputFieldsOrder {
-  width: 100%; 
+  width: 100%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -489,7 +538,8 @@ hr {
   margin-bottom: 5px;
   font-size: 14px;
 }
-.flexInputFieldsOrder label input, .flexInputFieldsOrder label select {
+.flexInputFieldsOrder label input,
+.flexInputFieldsOrder label select {
   width: 100%;
   padding: 0px 20px;
   line-height: 40px;
@@ -526,7 +576,7 @@ hr {
   background-color: #2d2d2d;
   font-size: 14px;
   width: 150px;
-} 
+}
 .paymentSection {
   display: flex;
   align-items: center;
