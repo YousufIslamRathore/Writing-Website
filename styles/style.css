@@ -118,6 +118,27 @@ hr {
   background-color: #fff;
   font-weight: 700;
 }
+.faqMainSection {
+   margin-top: 40px;
+   padding-top: 30px 0;
+}
+.faqMainSection > div {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.faqMainSection > div > h4  {
+  font-size: 30px;
+  color: #222;
+}
+.faqMainSection > div > p {
+  font-size: 16px;
+  color: #777;
+  text-align: center;
+}
+
+
+
 
 /* Banner Section */
 
