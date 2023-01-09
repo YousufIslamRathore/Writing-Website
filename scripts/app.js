@@ -7,3 +7,15 @@ function servicesHoverIconColor(div, key) {
     div.firstElementChild.style.color = "#777777";
   }
 }
+
+const faqToggler = (anchorTag) => { 
+  if(anchorTag.lastElementChild.className == "fa-solid fa-chevron-down") {
+    anchorTag.lastElementChild.className = "fa-solid fa-close";
+    anchorTag.nextElementSibling.className = "liParaDisplayOn";
+  } else {
+    anchorTag.lastElementChild.className = "fa-solid fa-chevron-down";
+    anchorTag.nextElementSibling.className = "liParaDisplayOff";
+  }
+
+
+}

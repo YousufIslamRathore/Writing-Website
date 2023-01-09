@@ -127,17 +127,58 @@ hr {
   margin: 0 auto;
   padding: 0 15px;
 }
-.faqMainSection > div > h4  {
+.faqMainSection > div > div {
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+.faqMainSection > div > div > h4  {
+  text-align: center;
   font-size: 30px;
   color: #222;
+  font-weight: 600;
 }
-.faqMainSection > div > p {
+.faqMainSection > div > div > p {
   font-size: 16px;
   color: #777;
   text-align: center;
 }
-
-
+.faqMainSection > div > ul {
+  list-style-type: none;
+}
+.faqMainSection > div > ul > li {
+  padding: 0 0 20px 25px;
+  transition-duration: 200ms;
+}
+.faqMainSection > div > ul > li > p {
+  margin: 20px 0;
+  color: #777;
+  font-size: 15px;
+  transition-duration: 200ms;
+}
+.faqMainSection > div > ul > li a {
+  text-decoration: none;
+  color: #343A40;
+  font-weight: 500;
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  transition-duration: 200ms;
+}
+.faqMainSection > div > ul > li a:hover {
+  color: #ffc500;
+}
+.faqMainSection > div > ul > li i {
+  position: absolute; 
+  top: 0 ;
+  right: 0;
+}
+.liParaDisplayOn {
+  display: block;
+}
+.liParaDisplayOff {
+  display: none;
+}
 
 
 /* Banner Section */
