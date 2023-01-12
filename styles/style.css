@@ -696,3 +696,67 @@ hr {
   align-items: center;
   padding: 30px;
 }
+
+
+
+/* **** About Us **** */
+.aboutUsBannerMainContainer {
+  padding: 40px 0 !important;
+  min-height: 380px !important;
+}
+.aboutUsMainContentSection {
+  padding: 50px 0;
+}
+.aboutUsMainContentSection > div {
+  width: 1140px !important;
+  margin: 0 auto;
+}
+.aboutUsMainContentSection h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #222;
+  padding: 0 15px;
+}
+.aboutUsMainContentSection main {
+  display: flex;
+} 
+.leftAboutUsContentSection {
+  max-width: 760px;
+  padding: 0 15px;
+}
+.leftAboutUsContentSection h2 {
+  color: #222;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.leftAboutUsContentSection p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.rightAboutUsContentSection {
+  max-width: 380px;
+  padding: 0 15px;
+}
+
+
+/* **** Footer **** */
+
+.footerMainContainer {
+  padding: 60px 0 ;
+}
+.footerMainContainer > div {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .footerMainContainer > div > section {
+  
+} */
+
