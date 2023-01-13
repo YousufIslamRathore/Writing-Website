@@ -742,7 +742,24 @@ hr {
   max-width: 380px;
   padding: 0 15px;
 }
-
+.leftAboutUsContentSection ul {
+  padding: 0 50px;
+  list-style: none;
+}
+.leftAboutUsContentSection li {
+  
+}
+.leftAboutUsContentSection li:before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 3px solid #ffc500;
+  background-color: #fff;
+  top: 4px;
+  left: 0;
+  border-radius: 50%;
+}
 
 /* **** Footer **** */
 
