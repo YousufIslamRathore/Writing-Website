@@ -745,20 +745,96 @@ hr {
 .leftAboutUsContentSection ul {
   padding: 0 50px;
   list-style: none;
+  margin-bottom: 30px;
 }
 .leftAboutUsContentSection li {
-  
+  font-size: 14px;
+  color: #777;
+  font-weight: 300;
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.82em;
 }
 .leftAboutUsContentSection li:before {
   content: "";
   position: absolute;
-  width: 14px;
-  height: 14px;
+  width: 10px;
+  height: 10px;
   border: 3px solid #ffc500;
   background-color: #fff;
   top: 4px;
   left: 0;
   border-radius: 50%;
+}
+.leftAboutUsContentSection a {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+.aboutUsFooter {
+  background: #222222;
+  padding: 60px 0;
+}
+.aboutUsFooter > div {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+.aboutUsFooter > div > section {
+  padding: 0 15px;
+  color: white;
+}
+.aboutUsFooter > div > section > h4 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.aboutUsFooter > div > section > p {
+  text-align: justify;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  line-height: 1.625rem;
+  font-size: 14px;
+}
+.aboutUsFooter > div > section > ul {
+  list-style: none;
+}
+.aboutUsFooter > div > section li {
+  margin-top: 8px;
+  font-weight: 300;
+  line-height: 1.625em;
+  font-size: 14px;
+  transition-duration: 300ms;
+}
+.aboutUsFooter > div > section li:hover {
+  color: #ffc500;
+}
+.footerSection1 {
+  flex: 4 !important;
+}
+.footerSection1 div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footerSection2 {
+  flex: 2 !important;
+}
+.footerSection3 {
+  flex: 3 !important;
+}
+.footerSection4 {
+  flex: 3 !important;
+}
+.iconBtn {
+  width: 40px;
+  height: 40px;
+  background-color: #111111;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* **** Footer **** */
