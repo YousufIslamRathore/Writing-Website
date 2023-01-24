@@ -697,8 +697,6 @@ hr {
   padding: 30px;
 }
 
-
-
 /* **** About Us **** */
 .aboutUsBannerMainContainer {
   padding: 40px 0 !important;
@@ -836,6 +834,12 @@ hr {
   justify-content: space-around;
   align-items: center;
 }
+
+.pricePlanMainContentSection > div > main > div {
+  width: 25%;
+  padding: 0 15px;
+}
+
 
 /* **** Footer **** */
 
