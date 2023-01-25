@@ -119,8 +119,8 @@ hr {
   font-weight: 700;
 }
 .faqMainSection {
-   margin-top: 40px;
-   padding-top: 30px 0;
+  margin-top: 40px;
+  padding-top: 30px 0;
 }
 .faqMainSection > div {
   width: 1140px;
@@ -131,7 +131,7 @@ hr {
   padding-bottom: 30px;
   margin-bottom: 40px;
 }
-.faqMainSection > div > div > h4  {
+.faqMainSection > div > div > h4 {
   text-align: center;
   font-size: 30px;
   color: #222;
@@ -157,7 +157,7 @@ hr {
 }
 .faqMainSection > div > ul > li a {
   text-decoration: none;
-  color: #343A40;
+  color: #343a40;
   font-weight: 500;
   font-size: 18px;
   display: inline-block;
@@ -169,8 +169,8 @@ hr {
   color: #ffc500;
 }
 .faqMainSection > div > ul > li i {
-  position: absolute; 
-  top: 0 ;
+  position: absolute;
+  top: 0;
   right: 0;
 }
 .liParaDisplayOn {
@@ -179,7 +179,6 @@ hr {
 .liParaDisplayOff {
   display: none;
 }
-
 
 /* Banner Section */
 
@@ -718,7 +717,7 @@ hr {
 }
 .aboutUsMainContentSection main {
   display: flex;
-} 
+}
 .leftAboutUsContentSection {
   max-width: 760px;
   padding: 0 15px;
@@ -849,11 +848,11 @@ hr {
   font-size: 17px;
   font-weight: 300;
   border: 1px solid #f0f0f0;
-  line-height: 1.625em
+  line-height: 1.625em;
 }
 .pricePlanMainContentSection li p {
-  font-size:  18px;
-  font-weight:  800;
+  font-size: 18px;
+  font-weight: 800;
   color: #000;
 }
 .lastBtnLi {
@@ -870,11 +869,10 @@ hr {
   font-size: 17px;
 }
 
-
 /* **** Footer **** */
 
 .footerMainContainer {
-  padding: 60px 0 ;
+  padding: 60px 0;
 }
 .footerMainContainer > div {
   width: 1140px;
@@ -886,4 +884,3 @@ hr {
 /* .footerMainContainer > div > section {
   
 } */
-
