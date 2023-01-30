@@ -713,7 +713,8 @@ hr {
   margin-bottom: 30px;
   font-weight: 600;
   color: #222;
-  padding: 0 15px;
+  padding: 0 15px; 
+  line-height: 1.2em;
 }
 .aboutUsMainContentSection main {
   display: flex;
@@ -725,7 +726,7 @@ hr {
 .leftAboutUsContentSection h2 {
   color: #222;
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-weight: 600;
   line-height: 1.2em;
 }
@@ -868,6 +869,12 @@ hr {
   border-radius: 20px;
   font-size: 17px;
 }
+/* **** Law Writers **** */
+.paraAfterH2 {
+  
+}
+
+
 
 /* **** Footer **** */
 
